@@ -53,10 +53,8 @@ sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
 
 
 
-
-
-
-THIS is from the vi/vim installation text (personal notes)
+### THIS is from the vi/vim installation text (personal notes)
+```sh
 #!/bin/bash
 # Author: Landmark Technology
 # This script will install sonarQube-7.8 
@@ -88,3 +86,4 @@ sh sonar.sh start
 # or start sonarqube as sonar user using sonar.sh absolute path
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start 
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
+```
