@@ -17,6 +17,7 @@
 
 ``` sh
 # install Java JDK 1.8+ as a pre-requisit for tomcat to run.
+# vi tomcat.sh
 cd /opt 
 sudo yum install git wget -y
 sudo yum install java-1.8.0-openjdk-devel -y
