@@ -43,6 +43,7 @@ export PATH=$PATH:$M2_HOME/bin
 ## .#Step4) Refresh the profile file and Verify if maven is running
 ```sh
 source .bash_profile
+cd 
 mvn -version
 ```
 
