@@ -17,5 +17,6 @@ sudo curl -O https://pkg.jenkins.io/redhat-stable/jenkins.repo
 # 3. Install Jenkins
 sudo yum -y install jenkins
 sudo systemctl start jenkins
+curl -v localhost:8080
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
