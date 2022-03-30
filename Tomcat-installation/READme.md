@@ -33,5 +33,16 @@ sudo sh /opt/tomcat9/bin/startup.sh
 sudo ln -s /opt/tomcat9/bin/startup.sh /usr/bin/starttomcat
 sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 starttomcat
+# tomcat configuration for the website
+# vi /opt/tomcat9/webapps/manager/META-INF/context.xml
+# add <!-- before the (<value className=) line and --> after the (allow) line
+# to add user to the tomcat website 
+# vi /opt/tomcat9/conf/tomcat-users.xml
+# add the following after --> (under the second 2 the last line) right before </tomcat-users>
+# <user username="alabaweh" password="admin" roles="manager-gui"/>
+# <user username="admin" password="admin" roles="manager-script"/>
+# exit and save
+
+
 ```
 
