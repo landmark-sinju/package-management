@@ -39,8 +39,8 @@ starttomcat
 # to add user to the tomcat website 
 # vi /opt/tomcat9/conf/tomcat-users.xml
 # add the following after --> (under the second 2 the last line) right before </tomcat-users>
-# <user username="alabaweh" password="admin" roles="manager-gui"/>
-# <user username="admin" password="admin" roles="manager-script"/>
+# <user username="alabaweh" password="admin" roles="manager-gui,admin-gui,manager-script"/>
+# <user username="admin" password="admin" roles="manager-script,manager-gui,admin-gui"/>
 # exit and save
 
 
